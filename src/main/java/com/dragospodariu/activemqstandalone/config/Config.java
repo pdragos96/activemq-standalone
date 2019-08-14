@@ -16,7 +16,7 @@ public class Config {
     private String brokerUrl;
 
     @Bean
-    public Topic queue() {
+    public Topic topic() {
         return new ActiveMQTopic("standalone.topic");
     }
 
